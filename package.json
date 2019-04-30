@@ -1,0 +1,68 @@
+{
+  "name": "lbank",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "json-serve": "json-server --watch db.json",
+    "lint": "vue-cli-service lint",
+    "docs": "jsdoc -d docs -c .jsdoc.js -r"
+  },
+  "dependencies": {
+    "ag-grid-community": "^20.2.0",
+    "ag-grid-vue": "^20.2.0",
+    "axios": "^0.18.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "bootstrap": "^4.3.1",
+    "core-js": "^2.6.5",
+    "document-register-element": "^1.13.1",
+    "lodash": "^4.17.11",
+    "qs": "^6.7.0",
+    "vue": "^2.6.6",
+    "vue-custom-element": "^3.2.6",
+    "vue-i18n": "^8.10.0",
+    "vue-nav-tabs": "^0.5.7",
+    "vue-property-decorator": "^8.1.0",
+    "vue-router": "^3.0.3",
+    "vue-tables-2": "^1.4.70",
+    "vuedals": "^1.7.0",
+    "vuelidate": "^0.7.4",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "jsdoc": "^3.5.5",
+    "jsdoc-vuejs": "^2.4.3",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
